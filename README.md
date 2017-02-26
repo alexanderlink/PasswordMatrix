@@ -1,6 +1,6 @@
 # ALX Password Matrix
 
-Click here to [**Use Password Matrix**](https://cdn.rawgit.com/alexanderlink/PasswordMatrix/master/PasswordMatrix.htm)
+Click here to [**Use Password Matrix**](https://alexanderlink.github.io/PasswordMatrix/PasswordMatrix.htm)
 
 "ALX Password Matrix" can be used to hide a password from people not knowing the scheme ("path") to reassemble the password.
 It shows a 7x7 matrix containing random characters. Your password is hidden in the matrix and can be reassembled only by your brain, knowing the fields to pick one after another. An attacker will not be able to guess the character order and a brute force attack will be costly, depending on the character types used.
