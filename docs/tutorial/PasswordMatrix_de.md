@@ -2,7 +2,7 @@
 
 ## Konzept
 
-![](images/passwordMatrix.gif)
+![](images/passwordMatrix_anim.gif)
 
 ## *ALX Password Matrix* öffnen
 

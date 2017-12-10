@@ -15,3 +15,6 @@ pages:
             - "Password Matrix":  "tutorial/PasswordMatrix_de.md"
             - "Einfach: KeePass":  "tutorial/KeePass_de.md"
             - "Fortgeschritten: Veracrypt & KeePass":  "tutorial/Veracrypt_de.md"
+
+theme:
+  name: 'material'
