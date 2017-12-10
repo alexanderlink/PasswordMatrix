@@ -1,0 +1,17 @@
+site_name: ALX Password Matrix
+
+repo_url: https://github.com/alexanderlink/PasswordMatrix
+
+pages:
+    - "English":
+        - "Password Matrix": "index.md"
+        - "Tutorials":
+            - "Password Matrix":  "tutorial/PasswordMatrix.md"
+            - "Basic: KeePass":  "tutorial/KeePass.md"
+            - "Advanced: Veracrypt & KeePass":  "tutorial/Veracrypt.md"
+    - "Deutsch":
+        - "Password Matrix": "index_de.md"
+        - "Tutorials":
+            - "Password Matrix":  "tutorial/PasswordMatrix_de.md"
+            - "Einfach: KeePass":  "tutorial/KeePass_de.md"
+            - "Fortgeschritten: Veracrypt & KeePass":  "tutorial/Veracrypt_de.md"
