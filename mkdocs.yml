@@ -16,5 +16,26 @@ pages:
             - "Einfach: KeePass":  "tutorial/KeePass_de.md"
             - "Fortgeschritten: Veracrypt & KeePass":  "tutorial/Veracrypt_de.md"
 
-theme:
-  name: 'material'
+extra_css:
+    - css/extra.css
+
+extra:
+    palette:
+        primary: 'Green'
+        accent: 'Amber'
+    logo: ''
+
+markdown_extensions:
+    - markdown.extensions.codehilite(guess_lang=false)
+    - pymdownx.betterem
+    - pymdownx.tilde
+    - pymdownx.details
+    - pymdownx.tasklist
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+        emoji_index: !!python/name:pymdownx.emoji.emojione
+    - toc:
+        permalink: True
+    - admonition
+
+theme: 'material'
