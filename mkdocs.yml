@@ -19,12 +19,6 @@ pages:
 extra_css:
     - css/extra.css
 
-extra:
-    palette:
-        primary: 'Green'
-        accent: 'Amber'
-    logo: ''
-
 markdown_extensions:
     - markdown.extensions.codehilite(guess_lang=false)
     - pymdownx.betterem
@@ -38,4 +32,8 @@ markdown_extensions:
         permalink: True
     - admonition
 
-theme: 'material'
+theme:
+    name: 'material'
+    palette:
+        primary: 'red'
+        accent: 'Yellow'
