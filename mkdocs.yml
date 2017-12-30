@@ -11,13 +11,15 @@ pages:
             - "Advanced: Veracrypt & KeePass":  "tutorial/Veracrypt.md"
     - "Deutsch":
         - "Password Matrix": "index_de.md"
-        - "Tutorials":
+        - "Anleitung":
             - "Password Matrix":  "tutorial/PasswordMatrix_de.md"
             - "Einfach: KeePass":  "tutorial/KeePass_de.md"
             - "Fortgeschritten: Veracrypt & KeePass":  "tutorial/Veracrypt_de.md"
 
 extra_css:
-    - css/extra.css
+    - extra/css/extra.css
+extra_javascript:
+    - extra/js/extra.js
 
 markdown_extensions:
     - markdown.extensions.codehilite(guess_lang=false)
@@ -36,4 +38,6 @@ theme:
     name: 'material'
     palette:
         primary: 'red'
-        accent: 'Yellow'
+        accent: 'light green'
+    feature:
+        tabs: true
