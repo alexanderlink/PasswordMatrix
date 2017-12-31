@@ -9,7 +9,7 @@ ALX Passwort Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzu
 !!! hint "Los geht's..."
 
     <a class="button" href="../PasswordMatrix.htm"><b>Password Matrix verwenden</b></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hier finden Sie eine <a href="/tutorial/PasswordMatrix_de/"><b>Anleitung zur Verwendung</b></a>.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hier finden Sie eine <a href="/tutorial/PasswordMatrix_1_de/"><b>Anleitung zur Verwendung</b></a>.
 
 ## Problemstellung
 

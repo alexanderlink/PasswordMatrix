@@ -12,7 +12,11 @@ pages:
     - "Deutsch":
         - "Password Matrix": "index_de.md"
         - "Anleitung":
-            - "Password Matrix":  "tutorial/PasswordMatrix_de.md"
+            - "Password Matrix":
+                - "Konzept":  "tutorial/PasswordMatrix_1_de.md"
+                - "Programm starten":  "tutorial/PasswordMatrix_2_de.md"
+                - "Persönlicher Pfad":  "tutorial/PasswordMatrix_3_de.md"
+                - "Matrix generieren":  "tutorial/PasswordMatrix_4_de.md"
             - "Einfach: KeePass":  "tutorial/KeePass_de.md"
             - "Fortgeschritten: Veracrypt & KeePass":  "tutorial/Veracrypt_de.md"
 
