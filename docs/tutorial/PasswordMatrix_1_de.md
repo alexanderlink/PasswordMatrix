@@ -1,9 +1,9 @@
 # Anleitung: ALX Passwort Matrix
 
-Auf den folgenden Seiten wird die Verwendung von ALX Passwort Matrix beschrieben.
+Auf den folgenden Seiten wird Schritt für Schritt die Verwendung von ALX Passwort Matrix beschrieben.
 
 !!! hint "Hinweis"
-    Auf der [folgenden Seite](KeePass_de.md) wird erklärt, wie man die generierten Passwort Matrizen im KeePass Passwort Manager verwenden kann.
+    Auch die Verwendung von generierten Passwort Matrizen im [KeePass Passwort Manager](KeePass_de.md) wird auf späteren Seiten beschrieben.
 
 ## Konzept
 

@@ -17,8 +17,8 @@ pages:
                 - "Programm starten":  "tutorial/PasswordMatrix_2_de.md"
                 - "Persönlicher Pfad":  "tutorial/PasswordMatrix_3_de.md"
                 - "Matrix generieren":  "tutorial/PasswordMatrix_4_de.md"
-            - "Einfach: KeePass":  "tutorial/KeePass_de.md"
-            - "Fortgeschritten: Veracrypt & KeePass":  "tutorial/Veracrypt_de.md"
+            - "+ KeePass Passwort Manager":  "tutorial/KeePass_de.md"
+            - "+ Veracrypt":  "tutorial/Veracrypt_de.md"
 
 extra_css:
     - extra/css/extra.css
