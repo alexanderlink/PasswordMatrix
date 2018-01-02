@@ -1,5 +1,5 @@
 <div style="text-align:right">
-    <a href="index_de/"><img class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f1e9-1f1ea.svg" title="Zu Deutsch wechseln"> zu Deutsch wechseln &nbsp; </a>
+    <a href="./index_de/"><img class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f1e9-1f1ea.svg" title="Zu Deutsch wechseln"> zu Deutsch wechseln &nbsp; </a>
 </div>
 
 # ALX Password Matrix
@@ -10,5 +10,5 @@
 
 The idea is to store such matrixes in a password manager rather than the plaintext passwords. This way an attacker cracking the password depot does not have immediate access to all stored passwords.
 
-<img src="tutorial/images/passwordMatrix_anim.gif" width="50%"><br>
+<img src="./tutorial/images/passwordMatrix_anim.gif" width="50%"><br>
 (yellow line only thought)

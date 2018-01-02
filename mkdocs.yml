@@ -19,6 +19,7 @@ pages:
                 - "Matrix generieren":  "tutorial/PasswordMatrix_4_de.md"
             - "KeePass Passwort Manager":
                 - "KeePass": "tutorial/KeePass_1_de.md"
+                - "KeePass Installieren": "tutorial/KeePass_1b_de.md"
                 - "Neue Datenbank anlegen": "tutorial/KeePass_2_de.md"
                 - "Passwort Eintrag hinzufügen": "tutorial/KeePass_3_de.md"
             - "Veracrypt":  "tutorial/Veracrypt_1_de.md"
