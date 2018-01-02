@@ -1,1 +1,0 @@
-# Veracrypt - Verschlüsselte Container

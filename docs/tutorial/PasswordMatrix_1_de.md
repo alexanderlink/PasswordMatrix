@@ -1,15 +1,15 @@
-# Anleitung: ALX Passwort Matrix
+# ALX Password Matrix
 
-Auf den folgenden Seiten wird Schritt für Schritt die Verwendung von ALX Passwort Matrix beschrieben.
+Auf den folgenden Seiten wird Schritt für Schritt die Verwendung von ALX Password Matrix beschrieben.
 
 !!! hint "Hinweis"
     Auch die Verwendung von generierten Passwort Matrizen im [KeePass Passwort Manager](KeePass_1_de.md) wird auf späteren Seiten beschrieben.
 
 ## Konzept
 
-ALX Passwort Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzuzeigen. Jedes Passwort wird durch eine separate Passwort Matrix repräsentiert und kann in einem Passwort Manager gespeichert werden, anstelle des Klartext Passworts.
+ALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzuzeigen. Jedes Passwort wird durch eine separate Passwort Matrix repräsentiert und kann in einem Passwort Manager gespeichert werden, anstelle des Klartext Passworts.
 
-Im folgenden Bild ist eine solche Passwort Matrix dargestellt. Die Zeichen in den Feldern wurden zufällig generiert.
+Im folgenden Bild ist eine solche Passwort Matrix, welche *ein* Passwort repräsentiert, dargestellt. Die Zeichen in den Feldern wurden zufällig generiert.
 
 Die gelbe (gedachte) Linie ist der Pfad, den sich der Nutzer initial überlegt hat. Jeder Benutzer sollte seinen eigenen Pfad im Kopf haben. Das Klartext Passwort lässt sich zusammensetzen indem man, wie in der Animation dargestellt, die Zeichen in den Feldern entlang des Pfades zusammensetzt.
 

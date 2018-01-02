@@ -12,7 +12,7 @@ Die Matrix wurde mit zufälligen Zeichen gefüllt. Anhand ihres [persönlichen P
     Einzelne Zeichen lassen sich nachträglich noch ändern, indem man in die entsprechenden Felder klickt und den Wert ändert.
 
 !!! hint "Das Textfeld"
-    Das Textfeld in der ersten Zeile enthält die Daten der Passwort Matrix am Stück. Kopieren Sie diesen Text in Ihren [Passwort Manager](KeePass_1_de.md). Wenn Sie den Text später in 'ALX Passwort Matrix' wieder einfügen wird die Matrix erneut dargestellt.
+    Das Textfeld in der ersten Zeile enthält die Daten der Passwort Matrix am Stück. Kopieren Sie diesen Text in Ihren [Passwort Manager](KeePass_1_de.md). Wenn Sie den Text später in 'ALX Password Matrix' wieder einfügen wird die Matrix erneut dargestellt.
 
     Alternativ können Sie die Matrix auch [in Matrixform kopieren](#copyMatrix).
 
@@ -23,6 +23,9 @@ Die Matrix wurde mit zufälligen Zeichen gefüllt. Anhand ihres [persönlichen P
 #### Matrix als Text anzeigen und kopieren
 
 Wenn Sie die Matrix in einem [Passwort Manager](KeePass_1_de.md) speichern möchten können Sie über den 'Matrix as text' Knopf die Matrix als Textblock anzeigen lassen. Es erscheint ein Textbereich und der komplette Text lässt sich per klick markieren und per Strg+C kopieren.
+
+!!! hint "Hinweis"
+    [Hier](KeePass_3_de.md) können Sie sehen, wie das in KeePass aussehen könnte.
 
 <img class="shadow" src="/tutorial/images/passwordMatrix04.PNG" width="80%">
 
