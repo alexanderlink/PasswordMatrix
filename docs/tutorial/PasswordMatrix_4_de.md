@@ -1,3 +1,7 @@
+<a class="nav-button pull-right" href="../KeePass_1_de">weiter</a>
+<a class="nav-button pull-left" href="../PasswordMatrix_3_de">zurück</a>
+<br>
+
 # 3. Neue Passwort Matrix generieren
 
 Um eine neue Passwort Matrix zu generieren klicken sie einen der grünen Knöpfe, je nachdem welche Zeichen das Passwort enthalten darf. Zu emopfehlen sind Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen, einige Seiten erlauben allerdings nur bestimmte Zeichen, z.B. zur Buchstaben und Zahlen, oder nur Zahlen.
@@ -32,3 +36,6 @@ Wenn Sie die Matrix in einem [Passwort Manager](KeePass_1_de.md) speichern möch
 <img class="shadow" src="/tutorial/images/passwordMatrix05.PNG" width="80%">
 
 
+<a class="nav-button pull-right" href="../KeePass_1_de">weiter</a>
+<a class="nav-button pull-left" href="../PasswordMatrix_3_de">zurück</a>
+<br>
