@@ -84,4 +84,5 @@ Es gibt viele Möglichkeiten Passwörter zu verwalten, mit allen Vor- und Nachte
 
 ## Passwort Matrix Beispiel
 Der [gelbe Pfad](/tutorial/PasswordMatrix_3_de.md) existiert nur im Kopf des Eigentümers. Sollte die Matrix in falsche Hände fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.
-<img src="/tutorial/images/passwordMatrix_anim.gif" width="50%">
+
+<img class="shadow" src="/tutorial/images/passwordMatrix_anim.gif" width="50%">

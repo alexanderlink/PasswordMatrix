@@ -5,10 +5,10 @@ repo_url: https://github.com/alexanderlink/PasswordMatrix
 pages:
     - "English":
         - "Password Matrix": "index.md"
-        - "Tutorials":
-            - "Password Matrix":  "tutorial/PasswordMatrix.md"
-            - "Basic: KeePass":  "tutorial/KeePass.md"
-            - "Advanced: Veracrypt & KeePass":  "tutorial/Veracrypt.md"
+#        - "Tutorials":
+#            - "Password Matrix":  "tutorial/PasswordMatrix.md"
+#            - "Basic: KeePass":  "tutorial/KeePass.md"
+#            - "Advanced: Veracrypt & KeePass":  "tutorial/Veracrypt.md"
     - "Deutsch":
         - "Password Matrix": "index_de.md"
         - "Anleitung":
