@@ -1,0 +1,139 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "zu Deutsch wechseln \u00a0 \n\n\n\n\n\nALX Password Matrix\n\u00b6\n\n\nUse Password Matrix\n\n\n\u201cALX Password Matrix\u201d can be used to hide a password from people not knowing the scheme (\u201cpath\u201d) to reassemble the password. It shows a 7x7 matrix containing random characters. Your password is hidden in the matrix and can be reassembled only by your brain, knowing the fields to pick one after another. An attacker will not be able to guess the character order and a brute force attack will be costly, depending on the character types used.\n\n\nThe idea is to store such matrixes in a password manager rather than the plaintext passwords. This way an attacker cracking the password depot does not have immediate access to all stored passwords.\n\n\n\n(yellow line only thought)",
+            "title": "Password Matrix"
+        },
+        {
+            "location": "/#alx-password-matrix",
+            "text": "Use Password Matrix  \u201cALX Password Matrix\u201d can be used to hide a password from people not knowing the scheme (\u201cpath\u201d) to reassemble the password. It shows a 7x7 matrix containing random characters. Your password is hidden in the matrix and can be reassembled only by your brain, knowing the fields to pick one after another. An attacker will not be able to guess the character order and a brute force attack will be costly, depending on the character types used.  The idea is to store such matrixes in a password manager rather than the plaintext passwords. This way an attacker cracking the password depot does not have immediate access to all stored passwords.  \n(yellow line only thought)",
+            "title": "ALX Password Matrix"
+        },
+        {
+            "location": "/index_de/",
+            "text": "switch to English \u00a0 \n\n\n\n\n\nALX Password Matrix\n\u00b6\n\n\nALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzuzeigen. Diese k\u00f6nnen dann in Passwort Managern verwendet werden, um Passw\u00f6rter nicht im Klartext ablegen zu m\u00fcssen.\n\n\n\n\nLos geht's...\n\n\nPassword Matrix starten\n \u00a0\u00a0\u00a0\u00a0\u00a0 \nAnleitung zur Verwendung\n\n\n\n\nProblemstellung\n\u00b6\n\n\nDas Problem bei \u00fcblichen \nPasswort Managern\n ist, dass der Passwort Container geknackt werden, oder ein ge\u00f6ffneter Container kompromittiert werden k\u00f6nnte und damit alle Passw\u00f6rter im Klartext \u2013 direkt verwendbar \u2013 dem Angreifer zur Verf\u00fcgung stehen w\u00fcrden.\n\n\nEine \nPasswort Matrix\n erm\u00f6glicht, ein Passwort nicht im Freitext im Passwort Manager abzulegen, sondern pro Passwort eine Matrix aus Zeichen. Das konkrete Passwort l\u00e4sst sich \u00fcber ein Schema/einen \npers\u00f6nlichen Pfad\n, den nur der Eigent\u00fcmer kennt, im Kopf reproduzieren. Selbst wenn die Matrix gestohlen wird, kann der Angreifer nichts damit anfangen kann, weil er den \"Pfad\" nicht kennt. Die m\u00f6glichen Kombinationen sind zu gro\u00df, um das Passwort (in absehbarer Zeit) rekonstruieren und ausnutzen zu k\u00f6nnen.\n\n\nVorteile einer Password Matrix (mit Passwort Manager):\n\n\n\n\n Es werden keine Freitext-Passw\u00f6rter gespeichert. Ein Angreifer kann mit der Matrix nichts anfangen\n\n\n Sichere verschl\u00fcsselte Ablage in einem Passwort Manager\n\n\n Zuf\u00e4llig generierte Passw\u00f6rter sind schwerer zu knacken, als von Menschen erdachte Passw\u00f6rter\n\n\n Es wird einfach, regelm\u00e4\u00dfig Passw\u00f6rter zu \u00e4ndern\n\n\n\n\n\n\nWarning\n\n\nPassword Matrix sollte \nimmer\n in Verbindung mit einem Passwort Manager oder verschl\u00fcsseltem Container verwendet werden! Nur so wird die erh\u00f6hte Sicherheit erreicht.\n\n\n\n\nAuf \nfolgenden Seiten\n finden Sie eine Anleitung zur Verwendung von ALX Password Matrix und Passwort Managern.\n\n\n\n\nGenerelles zu Passw\u00f6rtern\n\u00b6\n\n\nPassw\u00f6rter m\u00fcssen \nsicher\n sein und \nregelm\u00e4\u00dfig ge\u00e4ndert\n werden, um ein Ausnutzen im Fall eines Angriffs zu vermeiden.\n\n\n\n\nHinweis\n\n\nHier finden Sie Empfehlungen des BSI zum \nUmgang mit Passw\u00f6rtern\n und zu \nsicheren Passw\u00f6rtern\n.\n\n\n\n\nEs gibt viele M\u00f6glichkeiten Passw\u00f6rter zu verwalten, mit allen Vor- und Nachteilen.\n\n\n\n\nIm Kopf\n \u2013 Passw\u00f6rter im Kopf merken f\u00fchrt meistens dazu, dass die Passw\u00f6rter zu einfach sind und zudem h\u00e4ufig f\u00fcr viele Seiten identisch. Das regelm\u00e4\u00dfige \u00c4ndern von Passw\u00f6rtern stellt eine weitere Herausforderung dar, da neue Passw\u00f6rter m\u00f6glichst stark von den alten Passw\u00f6rtern abweichen m\u00fcssen.\n\n\nNotizzettel\n \u2013 Im einfachsten Fall schreibt man ein Klartext-Passwort auf einen Zettel. Jeder der den Zettel findet kann das Passwort ausnutzen.\n\n\nText-Datei\n \u2013 Eine Text-Datei mit dem Klartext-Passwort ist \u00e4hnlich unsicher wie ein Zettel, wenn nicht noch problematischer. Ist der Computer ans Internet angeschlossen kann die Datei online erbeutet und das Passwort vom Angreifer direkt verwendet werden.\n\n\nPasswort Manager\n \u2013 Ein Passwort Manager legt Passw\u00f6rter verschl\u00fcsselt ab. \u00d6ffnen l\u00e4sst er sich mit einem (m\u00f6glichst sicheren) Master Passwort. Wird der Passwort Container erbeutet muss der Angreifer zus\u00e4tzlich den Container knacken, um an das (Klartext) Passwort zu kommen.\n\n\nPasswort Matrix & Passwort Manager\n \u2013 In Verbindung mit einer Passwort Matrix liegen die Passw\u00f6rter nicht mehr im Klartext im Passwort Manager vor. Selbst nach erfolgreichem Knacken des Containers kann der Angreifer die Passw\u00f6rter nicht direkt nutzen.\n\n\n\n\nVergleich der Methoden\n\u00b6\n\n\n sicher | \n unsicher | \n\n eingeschr\u00e4nkt sicher\n\n\n\n    \n\n        \n\n        \nZettel\n\n        \nText-Datei \n\n        \nPasswort Manager\n\n        \nPasswort Matrix + Manager\n\n    \n\n    \n\n        \nSichere Ablage\n\n        \n\n        \n\n        \n\n        \n\n    \n\n    \n\n        \nSichere gegen Online Angriffe\n\n        \n\n        \n\n        \n\n        \n\n    \n\n    \n\n        \nPassw\u00f6rter nicht verwendbar nach Knacken der Ablage\n\n        \n\n        \n\n        \n\n        \n\n    \n\n\n\n\n\nPasswort Matrix Beispiel\n\u00b6\n\n\nDer \ngelbe Pfad\n existiert nur im Kopf des Eigent\u00fcmers. Sollte die Matrix in falsche H\u00e4nde fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.",
+            "title": "Password Matrix"
+        },
+        {
+            "location": "/index_de/#alx-password-matrix",
+            "text": "ALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzuzeigen. Diese k\u00f6nnen dann in Passwort Managern verwendet werden, um Passw\u00f6rter nicht im Klartext ablegen zu m\u00fcssen.   Los geht's...  Password Matrix starten  \u00a0\u00a0\u00a0\u00a0\u00a0  Anleitung zur Verwendung",
+            "title": "ALX Password Matrix"
+        },
+        {
+            "location": "/index_de/#problemstellung",
+            "text": "Das Problem bei \u00fcblichen  Passwort Managern  ist, dass der Passwort Container geknackt werden, oder ein ge\u00f6ffneter Container kompromittiert werden k\u00f6nnte und damit alle Passw\u00f6rter im Klartext \u2013 direkt verwendbar \u2013 dem Angreifer zur Verf\u00fcgung stehen w\u00fcrden.  Eine  Passwort Matrix  erm\u00f6glicht, ein Passwort nicht im Freitext im Passwort Manager abzulegen, sondern pro Passwort eine Matrix aus Zeichen. Das konkrete Passwort l\u00e4sst sich \u00fcber ein Schema/einen  pers\u00f6nlichen Pfad , den nur der Eigent\u00fcmer kennt, im Kopf reproduzieren. Selbst wenn die Matrix gestohlen wird, kann der Angreifer nichts damit anfangen kann, weil er den \"Pfad\" nicht kennt. Die m\u00f6glichen Kombinationen sind zu gro\u00df, um das Passwort (in absehbarer Zeit) rekonstruieren und ausnutzen zu k\u00f6nnen.  Vorteile einer Password Matrix (mit Passwort Manager):    Es werden keine Freitext-Passw\u00f6rter gespeichert. Ein Angreifer kann mit der Matrix nichts anfangen   Sichere verschl\u00fcsselte Ablage in einem Passwort Manager   Zuf\u00e4llig generierte Passw\u00f6rter sind schwerer zu knacken, als von Menschen erdachte Passw\u00f6rter   Es wird einfach, regelm\u00e4\u00dfig Passw\u00f6rter zu \u00e4ndern    Warning  Password Matrix sollte  immer  in Verbindung mit einem Passwort Manager oder verschl\u00fcsseltem Container verwendet werden! Nur so wird die erh\u00f6hte Sicherheit erreicht.   Auf  folgenden Seiten  finden Sie eine Anleitung zur Verwendung von ALX Password Matrix und Passwort Managern.",
+            "title": "Problemstellung"
+        },
+        {
+            "location": "/index_de/#generelles-zu-passwortern",
+            "text": "Passw\u00f6rter m\u00fcssen  sicher  sein und  regelm\u00e4\u00dfig ge\u00e4ndert  werden, um ein Ausnutzen im Fall eines Angriffs zu vermeiden.   Hinweis  Hier finden Sie Empfehlungen des BSI zum  Umgang mit Passw\u00f6rtern  und zu  sicheren Passw\u00f6rtern .   Es gibt viele M\u00f6glichkeiten Passw\u00f6rter zu verwalten, mit allen Vor- und Nachteilen.   Im Kopf  \u2013 Passw\u00f6rter im Kopf merken f\u00fchrt meistens dazu, dass die Passw\u00f6rter zu einfach sind und zudem h\u00e4ufig f\u00fcr viele Seiten identisch. Das regelm\u00e4\u00dfige \u00c4ndern von Passw\u00f6rtern stellt eine weitere Herausforderung dar, da neue Passw\u00f6rter m\u00f6glichst stark von den alten Passw\u00f6rtern abweichen m\u00fcssen.  Notizzettel  \u2013 Im einfachsten Fall schreibt man ein Klartext-Passwort auf einen Zettel. Jeder der den Zettel findet kann das Passwort ausnutzen.  Text-Datei  \u2013 Eine Text-Datei mit dem Klartext-Passwort ist \u00e4hnlich unsicher wie ein Zettel, wenn nicht noch problematischer. Ist der Computer ans Internet angeschlossen kann die Datei online erbeutet und das Passwort vom Angreifer direkt verwendet werden.  Passwort Manager  \u2013 Ein Passwort Manager legt Passw\u00f6rter verschl\u00fcsselt ab. \u00d6ffnen l\u00e4sst er sich mit einem (m\u00f6glichst sicheren) Master Passwort. Wird der Passwort Container erbeutet muss der Angreifer zus\u00e4tzlich den Container knacken, um an das (Klartext) Passwort zu kommen.  Passwort Matrix & Passwort Manager  \u2013 In Verbindung mit einer Passwort Matrix liegen die Passw\u00f6rter nicht mehr im Klartext im Passwort Manager vor. Selbst nach erfolgreichem Knacken des Containers kann der Angreifer die Passw\u00f6rter nicht direkt nutzen.",
+            "title": "Generelles zu Passw\u00f6rtern"
+        },
+        {
+            "location": "/index_de/#vergleich-der-methoden",
+            "text": "sicher |   unsicher |   eingeschr\u00e4nkt sicher  \n     \n         \n         Zettel \n         Text-Datei  \n         Passwort Manager \n         Passwort Matrix + Manager \n     \n     \n         Sichere Ablage \n         \n         \n         \n         \n     \n     \n         Sichere gegen Online Angriffe \n         \n         \n         \n         \n     \n     \n         Passw\u00f6rter nicht verwendbar nach Knacken der Ablage",
+            "title": "Vergleich der Methoden"
+        },
+        {
+            "location": "/index_de/#passwort-matrix-beispiel",
+            "text": "Der  gelbe Pfad  existiert nur im Kopf des Eigent\u00fcmers. Sollte die Matrix in falsche H\u00e4nde fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.",
+            "title": "Passwort Matrix Beispiel"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_1_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\nALX Password Matrix\n\u00b6\n\n\nAuf den folgenden Seiten wird Schritt f\u00fcr Schritt die Verwendung von ALX Password Matrix beschrieben.\n\n\n\n\nHinweis\n\n\nAuch die Verwendung von generierten Passwort Matrizen im \nKeePass Passwort Manager\n wird auf sp\u00e4teren Seiten beschrieben.\n\n\n\n\nKonzept\n\u00b6\n\n\nALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzuzeigen. Jedes Passwort wird durch eine separate Passwort Matrix repr\u00e4sentiert und kann in einem Passwort Manager gespeichert werden, anstelle des Klartext Passworts.\n\n\nIm folgenden Bild ist eine solche Passwort Matrix, welche \nein\n Passwort repr\u00e4sentiert, dargestellt. Die Zeichen in den Feldern wurden zuf\u00e4llig generiert.\n\n\nDie gelbe (gedachte) Linie ist der Pfad, den sich der Nutzer initial \u00fcberlegt hat. Jeder Benutzer sollte seinen eigenen Pfad im Kopf haben. Das Klartext Passwort l\u00e4sst sich zusammensetzen indem man, wie in der Animation dargestellt, die Zeichen in den Feldern entlang des Pfades zusammensetzt.\n\n\nDas Passwort im Beispiel lautet \nRuV=3QiA3vMCYV@\n.\n\n\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "Konzept"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_1_de/#alx-password-matrix",
+            "text": "Auf den folgenden Seiten wird Schritt f\u00fcr Schritt die Verwendung von ALX Password Matrix beschrieben.   Hinweis  Auch die Verwendung von generierten Passwort Matrizen im  KeePass Passwort Manager  wird auf sp\u00e4teren Seiten beschrieben.",
+            "title": "ALX Password Matrix"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_1_de/#konzept",
+            "text": "ALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzuzeigen. Jedes Passwort wird durch eine separate Passwort Matrix repr\u00e4sentiert und kann in einem Passwort Manager gespeichert werden, anstelle des Klartext Passworts.  Im folgenden Bild ist eine solche Passwort Matrix, welche  ein  Passwort repr\u00e4sentiert, dargestellt. Die Zeichen in den Feldern wurden zuf\u00e4llig generiert.  Die gelbe (gedachte) Linie ist der Pfad, den sich der Nutzer initial \u00fcberlegt hat. Jeder Benutzer sollte seinen eigenen Pfad im Kopf haben. Das Klartext Passwort l\u00e4sst sich zusammensetzen indem man, wie in der Animation dargestellt, die Zeichen in den Feldern entlang des Pfades zusammensetzt.  Das Passwort im Beispiel lautet  RuV=3QiA3vMCYV@ .   weiter  zur\u00fcck",
+            "title": "Konzept"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_2_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\n1. ALX Password Matrix \u00f6ffnen\n\u00b6\n\n\n\u00d6ffnen Sie \nPassword Matrix\n\n\n\n\nDas \"Schachbrett\" in der Mitte stellt die (noch leere) Matrix dar\n\n\n\u00dcber die gr\u00fcnen Kn\u00f6pfe l\u00e4sst sich jeweils eine neue Passwort Matrix mit zuf\u00e4lligen Zeichen generieren.\n\n\nDas Textfeld in der ersten Zeile wird die Passwort Matrix als einzeiligen Text anzeigen.\n\n\nDieser Text l\u00e4sst sich z.B. in einen Passwort Manager kopieren.\n\n\nUmgekehrt kann man eine bestehende Passwort Matrix wieder darstellen lassen, indem man den einzeiligen Text in dieses Textfeld wieder einf\u00fcgt.\n\n\n\n\n\n\n\n\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "Programm starten"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_2_de/#1-alx-password-matrix-offnen",
+            "text": "\u00d6ffnen Sie  Password Matrix   Das \"Schachbrett\" in der Mitte stellt die (noch leere) Matrix dar  \u00dcber die gr\u00fcnen Kn\u00f6pfe l\u00e4sst sich jeweils eine neue Passwort Matrix mit zuf\u00e4lligen Zeichen generieren.  Das Textfeld in der ersten Zeile wird die Passwort Matrix als einzeiligen Text anzeigen.  Dieser Text l\u00e4sst sich z.B. in einen Passwort Manager kopieren.  Umgekehrt kann man eine bestehende Passwort Matrix wieder darstellen lassen, indem man den einzeiligen Text in dieses Textfeld wieder einf\u00fcgt.      weiter  zur\u00fcck",
+            "title": "1. ALX Password Matrix \u00f6ffnen"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_3_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\n2. Pers\u00f6nlichen Pfad ausdenken\n\u00b6\n\n\n\n\nHinweis\n\n\nSie ben\u00f6tigen einen einzigen pers\u00f6nlichen Pfad f\u00fcr all Ihre Passw\u00f6rter. Falls Sie schon einen pers\u00f6nlichen Pfad haben, k\u00f6nnen Sie diesen \nSchritt \u00fcberspringen\n.\n\n\n\n\nUm Passwort Matrix zu verwenden m\u00fcssen sie sich einmalig einen pers\u00f6nlichen 'Pfad' ausdenken und merken.\nAlle Passw\u00f6rter, in ihrere separaten Matrix, k\u00f6nnen mit diesem gedachten Pfad im Kopf vom Eigent\u00fcmer reproduziert bzw. abgelesen werden.\n\n\n\n\nBeispiele\n\u00b6\n\n\nHier einige Beispiele f\u00fcr m\u00f6gliche Pfade (bitte eigene w\u00e4hlen!):\n\n\n\n\n\n\n\n\n\n\nAusgehend von dieser Beispiel Passwort Matrix ergeben sich daraus jeweils folgende Passw\u00f6rter:\n\n\n\n\n\n\ne5Rgq&3[FY%s\n\n\n\n\nR=@Q]A{u3kYvMC\n\n\n\n\nH+[iQqg:=Vspg\n \n\n\n\n\nR=@:3qJ&i[YF3%Mu{A]Q@=tV\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "Pers\u00f6nlicher Pfad"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_3_de/#2-personlichen-pfad-ausdenken",
+            "text": "Hinweis  Sie ben\u00f6tigen einen einzigen pers\u00f6nlichen Pfad f\u00fcr all Ihre Passw\u00f6rter. Falls Sie schon einen pers\u00f6nlichen Pfad haben, k\u00f6nnen Sie diesen  Schritt \u00fcberspringen .   Um Passwort Matrix zu verwenden m\u00fcssen sie sich einmalig einen pers\u00f6nlichen 'Pfad' ausdenken und merken.\nAlle Passw\u00f6rter, in ihrere separaten Matrix, k\u00f6nnen mit diesem gedachten Pfad im Kopf vom Eigent\u00fcmer reproduziert bzw. abgelesen werden.",
+            "title": "2. Pers\u00f6nlichen Pfad ausdenken"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_3_de/#beispiele",
+            "text": "Hier einige Beispiele f\u00fcr m\u00f6gliche Pfade (bitte eigene w\u00e4hlen!):      Ausgehend von dieser Beispiel Passwort Matrix ergeben sich daraus jeweils folgende Passw\u00f6rter:    e5Rgq&3[FY%s   R=@Q]A{u3kYvMC   H+[iQqg:=Vspg     R=@:3qJ&i[YF3%Mu{A]Q@=tV  weiter  zur\u00fcck",
+            "title": "Beispiele"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_4_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\n3. Neue Passwort Matrix generieren\n\u00b6\n\n\nUm eine neue Passwort Matrix zu generieren klicken sie einen der gr\u00fcnen Kn\u00f6pfe, je nachdem welche Zeichen das Passwort enthalten darf. Zu emopfehlen sind Gro\u00df- und Kleinbuchstaben, Zahlen und Sonderzeichen, einige Seiten erlauben allerdings nur bestimmte Zeichen, z.B. zur Buchstaben und Zahlen, oder nur Zahlen.\n\n\nKlicken Sie auf den Knopf \nA-Za-z0-9$?%\n.\n\n\n\n\nDie Matrix wurde mit zuf\u00e4lligen Zeichen gef\u00fcllt. Anhand ihres \npers\u00f6nlichen Pfades\n k\u00f6nnen Sie das Passwort ablesen und auf der jeweiligen Seite entsprechend setzen und in Zukunft verwenden.\n\n\n\n\nZeichen anpassen\n\n\nEinzelne Zeichen lassen sich nachtr\u00e4glich noch \u00e4ndern, indem man in die entsprechenden Felder klickt und den Wert \u00e4ndert.\n\n\n\n\n\n\nDas Textfeld\n\n\nDas Textfeld in der ersten Zeile enth\u00e4lt die Daten der Passwort Matrix am St\u00fcck. Kopieren Sie diesen Text in Ihren \nPasswort Manager\n. Wenn Sie den Text sp\u00e4ter in 'ALX Password Matrix' wieder einf\u00fcgen wird die Matrix erneut dargestellt.\n\n\nAlternativ k\u00f6nnen Sie die Matrix auch \nin Matrixform kopieren\n.\n\n\n\n\n\n\n\u00a0\n\n\n\nMatrix als Text anzeigen und kopieren\n\u00b6\n\n\nWenn Sie die Matrix in einem \nPasswort Manager\n speichern m\u00f6chten k\u00f6nnen Sie \u00fcber den 'Matrix as text' Knopf die Matrix als Textblock anzeigen lassen. Es erscheint ein Textbereich und der komplette Text l\u00e4sst sich per klick markieren und per Strg+C kopieren.\n\n\n\n\nHinweis\n\n\nHier\n k\u00f6nnen Sie sehen, wie das in KeePass aussehen k\u00f6nnte.\n\n\n\n\n\n\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "Matrix generieren"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_4_de/#3-neue-passwort-matrix-generieren",
+            "text": "Um eine neue Passwort Matrix zu generieren klicken sie einen der gr\u00fcnen Kn\u00f6pfe, je nachdem welche Zeichen das Passwort enthalten darf. Zu emopfehlen sind Gro\u00df- und Kleinbuchstaben, Zahlen und Sonderzeichen, einige Seiten erlauben allerdings nur bestimmte Zeichen, z.B. zur Buchstaben und Zahlen, oder nur Zahlen.  Klicken Sie auf den Knopf  A-Za-z0-9$?% .   Die Matrix wurde mit zuf\u00e4lligen Zeichen gef\u00fcllt. Anhand ihres  pers\u00f6nlichen Pfades  k\u00f6nnen Sie das Passwort ablesen und auf der jeweiligen Seite entsprechend setzen und in Zukunft verwenden.   Zeichen anpassen  Einzelne Zeichen lassen sich nachtr\u00e4glich noch \u00e4ndern, indem man in die entsprechenden Felder klickt und den Wert \u00e4ndert.    Das Textfeld  Das Textfeld in der ersten Zeile enth\u00e4lt die Daten der Passwort Matrix am St\u00fcck. Kopieren Sie diesen Text in Ihren  Passwort Manager . Wenn Sie den Text sp\u00e4ter in 'ALX Password Matrix' wieder einf\u00fcgen wird die Matrix erneut dargestellt.  Alternativ k\u00f6nnen Sie die Matrix auch  in Matrixform kopieren .",
+            "title": "3. Neue Passwort Matrix generieren"
+        },
+        {
+            "location": "/tutorial/PasswordMatrix_4_de/#matrix-als-text-anzeigen-und-kopieren",
+            "text": "Wenn Sie die Matrix in einem  Passwort Manager  speichern m\u00f6chten k\u00f6nnen Sie \u00fcber den 'Matrix as text' Knopf die Matrix als Textblock anzeigen lassen. Es erscheint ein Textbereich und der komplette Text l\u00e4sst sich per klick markieren und per Strg+C kopieren.   Hinweis  Hier  k\u00f6nnen Sie sehen, wie das in KeePass aussehen k\u00f6nnte.     weiter  zur\u00fcck",
+            "title": "Matrix als Text anzeigen und kopieren"
+        },
+        {
+            "location": "/tutorial/KeePass_1_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\nKeePass - Passwort Manager\n\u00b6\n\n\nAuf den folgenden Seiten wird beschrieben, wie sich der \nKeePass\n Passwort Manager in Verbindung mit \nALX Password Matrix\n verwenden l\u00e4sst.\n\n\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "KeePass"
+        },
+        {
+            "location": "/tutorial/KeePass_1_de/#keepass-passwort-manager",
+            "text": "Auf den folgenden Seiten wird beschrieben, wie sich der  KeePass  Passwort Manager in Verbindung mit  ALX Password Matrix  verwenden l\u00e4sst.   weiter  zur\u00fcck",
+            "title": "KeePass - Passwort Manager"
+        },
+        {
+            "location": "/tutorial/KeePass_2_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\nNeue Datenbank anlegen\n\u00b6\n\n\nAuf dieser Seite wird beschrieben, wie sie eine neue KeePass Datenbank Datei f\u00fcr Passw\u00f6rter anlegen. Sie k\u00f6nnen f\u00fcr alle Passw\u00f6rter die selbe Datenbank verwenden, oder separate Datenbanken f\u00fcr verschiedene Passw\u00f6rter anlegen.\n\n\n\n\nHinweis\n\n\nWenn Sie bereits eine KeePass Datenbank angelegt haben, k\u00f6nnen Sie diese verwenden und diesen \nSchritt \u00fcberspringen\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "Neue Datenbank anlegen"
+        },
+        {
+            "location": "/tutorial/KeePass_2_de/#neue-datenbank-anlegen",
+            "text": "Auf dieser Seite wird beschrieben, wie sie eine neue KeePass Datenbank Datei f\u00fcr Passw\u00f6rter anlegen. Sie k\u00f6nnen f\u00fcr alle Passw\u00f6rter die selbe Datenbank verwenden, oder separate Datenbanken f\u00fcr verschiedene Passw\u00f6rter anlegen.   Hinweis  Wenn Sie bereits eine KeePass Datenbank angelegt haben, k\u00f6nnen Sie diese verwenden und diesen  Schritt \u00fcberspringen .          weiter  zur\u00fcck",
+            "title": "Neue Datenbank anlegen"
+        },
+        {
+            "location": "/tutorial/KeePass_3_de/",
+            "text": "weiter\n\n\nzur\u00fcck\n\n\n\n\nNeuen Password Eintrag hinzuf\u00fcgen\n\u00b6\n\n\nAuf dieser Seite wird beschrieben, wie Sie Passwort Eintr\u00e4ge zu einer KeePass Datenbank hinzuf\u00fcgen. In unserem Fall f\u00fcgen wir nicht das Klartext-Passwort hinzu, sondern eine \nPasswort Matrix\n, welche das Passwort repr\u00e4sentiert.\n\n\n\n\n\n\n\n\n\n\nweiter\n\n\nzur\u00fcck",
+            "title": "Passwort Eintrag hinzuf\u00fcgen"
+        },
+        {
+            "location": "/tutorial/KeePass_3_de/#neuen-password-eintrag-hinzufugen",
+            "text": "Auf dieser Seite wird beschrieben, wie Sie Passwort Eintr\u00e4ge zu einer KeePass Datenbank hinzuf\u00fcgen. In unserem Fall f\u00fcgen wir nicht das Klartext-Passwort hinzu, sondern eine  Passwort Matrix , welche das Passwort repr\u00e4sentiert.      weiter  zur\u00fcck",
+            "title": "Neuen Password Eintrag hinzuf\u00fcgen"
+        },
+        {
+            "location": "/tutorial/Veracrypt_1_de/",
+            "text": "Veracrypt - Verschl\u00fcsselte Container\n\u00b6\n\n\n\n\nFortgeschrittene Verwendung\n\n\n\n\nWenn ein Passwort Manager wie \nKeePass\n geknackt wird, hat der Angreifer Zugriff auf alle Passworteintr\u00e4ge. Unter Verwendung von \nALX Password Matrix\n ist das Problem etwas entsch\u00e4rft, da die Passw\u00f6rter nicht im Klartext im Passwort Manager stehen, die folgenden Seiten beschreiben aber, wie sich das Sicherheitsma\u00df weiter steigern l\u00e4sst.",
+            "title": "Veracrypt"
+        },
+        {
+            "location": "/tutorial/Veracrypt_1_de/#veracrypt-verschlusselte-container",
+            "text": "Fortgeschrittene Verwendung   Wenn ein Passwort Manager wie  KeePass  geknackt wird, hat der Angreifer Zugriff auf alle Passworteintr\u00e4ge. Unter Verwendung von  ALX Password Matrix  ist das Problem etwas entsch\u00e4rft, da die Passw\u00f6rter nicht im Klartext im Passwort Manager stehen, die folgenden Seiten beschreiben aber, wie sich das Sicherheitsma\u00df weiter steigern l\u00e4sst.",
+            "title": "Veracrypt - Verschl\u00fcsselte Container"
+        }
+    ]
+}
