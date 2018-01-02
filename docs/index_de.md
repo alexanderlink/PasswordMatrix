@@ -1,5 +1,5 @@
 <div style="text-align:right">
-    <a href="/"><img class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f1ec-1f1e7.svg" title="Switch to English"> switch to English &nbsp; </a>
+    <a href=".."><img class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f1ec-1f1e7.svg" title="Switch to English"> switch to English &nbsp; </a>
 </div>
 
 # ALX Password Matrix
@@ -8,7 +8,7 @@ ALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzu
 
 !!! hint "Los geht's..."
 
-    <a class="button" href="../PasswordMatrix.htm"><b>Password Matrix starten</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="button"  href="/tutorial/PasswordMatrix_1_de/"><b>Anleitung zur Verwendung</b></a>
+    <a class="button" href="../PasswordMatrix.htm"><b>Password Matrix starten</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="button"  href="tutorial/PasswordMatrix_1_de/"><b>Anleitung zur Verwendung</b></a>
 
 ## Problemstellung
 
@@ -85,4 +85,4 @@ Es gibt viele Möglichkeiten Passwörter zu verwalten, mit allen Vor- und Nachte
 ## Passwort Matrix Beispiel
 Der [gelbe Pfad](/tutorial/PasswordMatrix_3_de.md) existiert nur im Kopf des Eigentümers. Sollte die Matrix in falsche Hände fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.
 
-<img class="shadow" src="/tutorial/images/passwordMatrix_anim.gif" width="50%">
+<img class="shadow" src="tutorial/images/passwordMatrix_anim.gif" width="50%">

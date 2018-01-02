@@ -8,7 +8,7 @@ Um eine neue Passwort Matrix zu generieren klicken sie einen der grünen Knöpfe
 
 Klicken Sie auf den Knopf `A-Za-z0-9$?%`.
 
-<img class="shadow" src="/tutorial/images/passwordMatrix02.PNG" width="50%">
+<img class="shadow" src="../images/passwordMatrix02.PNG" width="50%">
 
 Die Matrix wurde mit zufälligen Zeichen gefüllt. Anhand ihres [persönlichen Pfades](PasswordMatrix_3_de.md) können Sie das Passwort ablesen und auf der jeweiligen Seite entsprechend setzen und in Zukunft verwenden.
 
@@ -20,7 +20,7 @@ Die Matrix wurde mit zufälligen Zeichen gefüllt. Anhand ihres [persönlichen P
 
     Alternativ können Sie die Matrix auch [in Matrixform kopieren](#copyMatrix).
 
-<img class="shadow" src="/tutorial/images/passwordMatrix03.PNG" width="50%">
+<img class="shadow" src="../images/passwordMatrix03.PNG" width="50%">
 
 <div id="copyMatrix">&nbsp;</div>
 
@@ -31,9 +31,9 @@ Wenn Sie die Matrix in einem [Passwort Manager](KeePass_1_de.md) speichern möch
 !!! hint "Hinweis"
     [Hier](KeePass_3_de.md) können Sie sehen, wie das in KeePass aussehen könnte.
 
-<img class="shadow" src="/tutorial/images/passwordMatrix04.PNG" width="80%">
+<img class="shadow" src="../images/passwordMatrix04.PNG" width="80%">
 
-<img class="shadow" src="/tutorial/images/passwordMatrix05.PNG" width="80%">
+<img class="shadow" src="../images/passwordMatrix05.PNG" width="80%">
 
 
 <a class="nav-button pull-right" href="../KeePass_1_de">weiter</a>
