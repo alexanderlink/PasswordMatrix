@@ -12,9 +12,9 @@ ALX Password Matrix ist ein Werkzeug um Passwort Matrizen zu generieren und anzu
 
 ## Problemstellung
 
-Das Problem bei üblichen [**Passwort Managern**](/tutorial/KeePass_1.md) ist, dass der Passwort Container geknackt werden, oder ein geöffneter Container kompromittiert werden könnte und damit alle Passwörter im Klartext &ndash; direkt verwendbar &ndash; dem Angreifer zur Verfügung stehen würden.
+Das Problem bei üblichen [**Passwort Managern**](tutorial/KeePass_1.md) ist, dass der Passwort Container geknackt werden, oder ein geöffneter Container kompromittiert werden könnte und damit alle Passwörter im Klartext &ndash; direkt verwendbar &ndash; dem Angreifer zur Verfügung stehen würden.
 
-Eine [**Passwort Matrix**](/tutorial/PasswordMatrix_1.md) ermöglicht, ein Passwort nicht im Freitext im Passwort Manager abzulegen, sondern pro Passwort eine Matrix aus Zeichen. Das konkrete Passwort lässt sich über ein Schema/einen [persönlichen Pfad](/tutorial/PasswordMatrix_3.md), den nur der Eigentümer kennt, im Kopf reproduzieren. Selbst wenn die Matrix gestohlen wird, kann der Angreifer nichts damit anfangen kann, weil er den "Pfad" nicht kennt. Die möglichen Kombinationen sind zu groß, um das Passwort (in absehbarer Zeit) rekonstruieren und ausnutzen zu können.
+Eine [**Passwort Matrix**](tutorial/PasswordMatrix_1.md) ermöglicht, ein Passwort nicht im Freitext im Passwort Manager abzulegen, sondern pro Passwort eine Matrix aus Zeichen. Das konkrete Passwort lässt sich über ein Schema/einen [persönlichen Pfad](tutorial/PasswordMatrix_3.md), den nur der Eigentümer kennt, im Kopf reproduzieren. Selbst wenn die Matrix gestohlen wird, kann der Angreifer nichts damit anfangen kann, weil er den "Pfad" nicht kennt. Die möglichen Kombinationen sind zu groß, um das Passwort (in absehbarer Zeit) rekonstruieren und ausnutzen zu können.
 
 **Vorteile einer Password Matrix (mit Passwort Manager):**
 
@@ -26,7 +26,7 @@ Eine [**Passwort Matrix**](/tutorial/PasswordMatrix_1.md) ermöglicht, ein Passw
 !!! warning
     Password Matrix sollte **immer** in Verbindung mit einem Passwort Manager oder verschlüsseltem Container verwendet werden! Nur so wird die erhöhte Sicherheit erreicht.
 
-Auf [folgenden Seiten](/tutorial/PasswordMatrix_1/) finden Sie eine Anleitung zur Verwendung von ALX Password Matrix und Passwort Managern.
+Auf [folgenden Seiten](tutorial/PasswordMatrix_1/) finden Sie eine Anleitung zur Verwendung von ALX Password Matrix und Passwort Managern.
 
 <br>
 
@@ -83,6 +83,6 @@ Es gibt viele Möglichkeiten Passwörter zu verwalten, mit allen Vor- und Nachte
 </table>
 
 ## Passwort Matrix Beispiel
-Der [gelbe Pfad](/tutorial/PasswordMatrix_3.md) existiert nur im Kopf des Eigentümers. Sollte die Matrix in falsche Hände fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.
+Der [gelbe Pfad](tutorial/PasswordMatrix_3.md) existiert nur im Kopf des Eigentümers. Sollte die Matrix in falsche Hände fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.
 
-<img class="shadow" src="tutorial/images/passwordMatrix_anim.gif" width="50%">
+<img class="shadow" src="../images/passwordMatrix_anim.gif" width="50%">
