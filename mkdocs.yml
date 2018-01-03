@@ -6,23 +6,23 @@ pages:
     - "English":
         - "Password Matrix": "index.md"
 #        - "Tutorials":
-#            - "Password Matrix":  "tutorial/PasswordMatrix.md"
-#            - "Basic: KeePass":  "tutorial/KeePass.md"
-#            - "Advanced: Veracrypt & KeePass":  "tutorial/Veracrypt.md"
+#            - "Password Matrix":  "en/tutorial/PasswordMatrix.md"
+#            - "Basic: KeePass":  "en/tutorial/KeePass.md"
+#            - "Advanced: Veracrypt & KeePass":  "en/tutorial/Veracrypt.md"
     - "Deutsch":
-        - "Password Matrix": "index_de.md"
+        - "Password Matrix": "de/index.md"
         - "Anleitung":
             - "Password Matrix":
-                - "Konzept":  "tutorial/PasswordMatrix_1_de.md"
-                - "Programm starten":  "tutorial/PasswordMatrix_2_de.md"
-                - "Persönlicher Pfad":  "tutorial/PasswordMatrix_3_de.md"
-                - "Matrix generieren":  "tutorial/PasswordMatrix_4_de.md"
+                - "Konzept":  "de/tutorial/PasswordMatrix_1.md"
+                - "Programm starten":  "de/tutorial/PasswordMatrix_2.md"
+                - "Persönlicher Pfad":  "de/tutorial/PasswordMatrix_3.md"
+                - "Matrix generieren":  "de/tutorial/PasswordMatrix_4.md"
             - "KeePass Passwort Manager":
-                - "KeePass": "tutorial/KeePass_1_de.md"
-                - "KeePass Installieren": "tutorial/KeePass_1b_de.md"
-                - "Neue Datenbank anlegen": "tutorial/KeePass_2_de.md"
-                - "Passwort Eintrag hinzufügen": "tutorial/KeePass_3_de.md"
-            - "Veracrypt":  "tutorial/Veracrypt_1_de.md"
+                - "KeePass": "de/tutorial/KeePass_1.md"
+                - "KeePass Installieren": "de/tutorial/KeePass_2.md"
+                - "Neue Datenbank anlegen": "de/tutorial/KeePass_3.md"
+                - "Passwort Eintrag hinzufügen": "de/tutorial/KeePass_4.md"
+            - "Veracrypt":  "de/tutorial/Veracrypt_1.md"
 
 extra_css:
     - extra/css/extra.css

@@ -1,5 +1,5 @@
-<a class="nav-button pull-right" href="../PasswordMatrix_3_de">weiter</a>
-<a class="nav-button pull-left" href="../PasswordMatrix_1_de">zurück</a>
+<a class="nav-button pull-right" href="../PasswordMatrix_3">weiter</a>
+<a class="nav-button pull-left" href="../PasswordMatrix_1">zurück</a>
 <br>
 
 # 1. ALX Password Matrix öffnen
@@ -12,8 +12,8 @@
     - Dieser Text lässt sich z.B. in einen Passwort Manager kopieren.
     - Umgekehrt kann man eine bestehende Passwort Matrix wieder darstellen lassen, indem man den einzeiligen Text in dieses Textfeld wieder einfügt.
 
-<img class="shadow" src="../images/passwordMatrix02.PNG" width="50%">
+<img class="shadow" src="../../../images/passwordMatrix02.PNG" width="50%">
 
-<a class="nav-button pull-right" href="../PasswordMatrix_3_de">weiter</a>
-<a class="nav-button pull-left" href="../PasswordMatrix_1_de">zurück</a>
+<a class="nav-button pull-right" href="../PasswordMatrix_3">weiter</a>
+<a class="nav-button pull-left" href="../PasswordMatrix_1">zurück</a>
 <br>

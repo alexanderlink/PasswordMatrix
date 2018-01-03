@@ -1,5 +1,5 @@
-<a class="nav-button pull-right" href="../PasswordMatrix_2_de">weiter</a>
-<a class="nav-button pull-left" href="../../index_de">zurück</a>
+<a class="nav-button pull-right" href="../PasswordMatrix_2">weiter</a>
+<a class="nav-button pull-left" href="../../index">zurück</a>
 <br>
 
 # ALX Password Matrix
@@ -7,7 +7,7 @@
 Auf den folgenden Seiten wird Schritt für Schritt die Verwendung von ALX Password Matrix beschrieben.
 
 !!! hint "Hinweis"
-    Auch die Verwendung von generierten Passwort Matrizen im [KeePass Passwort Manager](KeePass_1_de.md) wird auf späteren Seiten beschrieben.
+    Auch die Verwendung von generierten Passwort Matrizen im [KeePass Passwort Manager](KeePass_1.md) wird auf späteren Seiten beschrieben.
 
 ## Konzept
 
@@ -19,8 +19,8 @@ Die gelbe (gedachte) Linie ist der Pfad, den sich der Nutzer initial überlegt h
 
 Das Passwort im Beispiel lautet `RuV=3QiA3vMCYV@`.
 
-<img src="../images/passwordMatrix_anim.gif" width="50%">
+<img src="../../../images/passwordMatrix_anim.gif" width="50%">
 
-<a class="nav-button pull-right" href="../PasswordMatrix_2_de">weiter</a>
-<a class="nav-button pull-left" href="../../index_de">zurück</a>
+<a class="nav-button pull-right" href="../PasswordMatrix_2">weiter</a>
+<a class="nav-button pull-left" href="../../index">zurück</a>
 <br>
