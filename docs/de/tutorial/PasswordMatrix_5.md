@@ -31,7 +31,7 @@ Anhand des [persönlichen Pfades](PasswordMatrix_3.md) lässt sich das Passwort 
 
 Mit folgendem (Beispiel-)Pfad wäre das Passwort mit 12 Zeichen: `R=@Q]A{u3kY`
 
-<img class="shadow-nomargin" src="../../../images/passwordMatrix_pathExample2.PNG" width="49%">
+<img class="shadow-nomargin" src="../../../images/passwordMatrix_pathExample2.png" width="49%">
 
 
 
@@ -43,14 +43,14 @@ Kopieren Sie den einzeiligen Matrix Text aus Ihrem Passwort Manager und fügen S
 
 Der einzeilige Matrix Text aus dem Beispiel der vorherigen Seiten ist `e5RgkJtLJq3:@ox&Q@=tV3i]RaVYT[A{usC+YF3%MpH\kYv-g` und führt zu folgendem Ergebnis:
 
-<img class="shadow" src="../../../images/passwordMatrix03.PNG" width="50%">
+<img class="shadow" src="../../../images/passwordMatrix03.png" width="50%">
 
 Anhand des [persönlichen Pfades](PasswordMatrix_3.md) lässt sich das Passwort im Kopf ablesen.
 
 Mit folgendem (Beispiel-)Pfad wäre das Passwort mit 12 Zeichen: `R=@Q]A{u3kY`
 
-<img class="shadow-nomargin" src="../../../images/passwordMatrix_pathExample2.PNG" width="49%">
-<img class="shadow-nomargin" src="../../../images/passwordMatrix_filled.PNG" width="49%">
+<img class="shadow-nomargin" src="../../../images/passwordMatrix_pathExample2.png" width="49%">
+<img class="shadow-nomargin" src="../../../images/passwordMatrix_filled.png" width="49%">
 
 
 <a class="nav-button pull-right" href="../KeePass_1">weiter</a>

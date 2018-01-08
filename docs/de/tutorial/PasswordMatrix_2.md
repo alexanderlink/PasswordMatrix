@@ -12,8 +12,8 @@
     - Dieser Text lässt sich z.B. in einen Passwort Manager kopieren.
     - Umgekehrt kann man eine bestehende Passwort Matrix wieder darstellen lassen, indem man den einzeiligen Text in dieses Textfeld einfügt.
 
-<img class="shadow-nomargin" src="../../../images/passwordMatrix02.PNG" width="49%">
-<img class="shadow-nomargin" src="../../../images/passwordMatrix03.PNG" width="49%">
+<img class="shadow-nomargin" src="../../../images/passwordMatrix02.png" width="49%">
+<img class="shadow-nomargin" src="../../../images/passwordMatrix03.png" width="49%">
 
 <a class="nav-button pull-right" href="../PasswordMatrix_3">weiter</a>
 <a class="nav-button pull-left" href="../PasswordMatrix_1">zurück</a>

@@ -8,7 +8,7 @@ Um eine neue Passwort Matrix zu generieren klicken sie einen der grünen Knöpfe
 
 Klicken Sie auf den Knopf `A-Za-z0-9$?%`.
 
-<img class="shadow" src="../../../images/passwordMatrix02.PNG" width="50%">
+<img class="shadow" src="../../../images/passwordMatrix02.png" width="50%">
 
 Die Matrix wurde mit zufälligen Zeichen gefüllt. Anhand ihres [persönlichen Pfades](PasswordMatrix_3.md) können Sie das Passwort ablesen und auf der jeweiligen Seite entsprechend setzen und in Zukunft verwenden.
 
@@ -20,7 +20,7 @@ Die Matrix wurde mit zufälligen Zeichen gefüllt. Anhand ihres [persönlichen P
 
     Alternativ können Sie die Matrix auch [in Matrixform kopieren](#copyMatrix).
 
-<img class="shadow" src="../../../images/passwordMatrix03.PNG" width="50%">
+<img class="shadow" src="../../../images/passwordMatrix03.png" width="50%">
 
 <div id="copyMatrix">&nbsp;</div>
 
@@ -31,9 +31,9 @@ Wenn Sie die Matrix in einem [Passwort Manager](KeePass_1.md) speichern möchten
 !!! hint "Hinweis"
     [Hier](KeePass_3.md) können Sie sehen, wie das in KeePass aussehen könnte.
 
-<img class="shadow" src="../../../images/passwordMatrix04.PNG" width="80%">
+<img class="shadow" src="../../../images/passwordMatrix04.png" width="80%">
 
-<img class="shadow" src="../../../images/passwordMatrix05.PNG" width="80%">
+<img class="shadow" src="../../../images/passwordMatrix05.png" width="80%">
 
 
 <a class="nav-button pull-right" href="../PasswordMatrix_5">weiter</a>
