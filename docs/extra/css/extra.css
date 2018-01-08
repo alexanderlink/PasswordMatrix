@@ -17,6 +17,10 @@ img.shadow {
     margin-left: 50px;
 }
 
+img.shadow-nomargin {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 4px 0px, rgba(0, 0, 0, 0.12) 0px 2px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px -2px;
+}
+
 .pull-right {
     float: right !important;
     margin-left: 20px;

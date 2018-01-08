@@ -17,11 +17,13 @@ pages:
                 - "Programm starten":  "de/tutorial/PasswordMatrix_2.md"
                 - "Persönlicher Pfad":  "de/tutorial/PasswordMatrix_3.md"
                 - "Matrix generieren":  "de/tutorial/PasswordMatrix_4.md"
+                - "Passwort ablesen":  "de/tutorial/PasswordMatrix_5.md"
             - "KeePass Passwort Manager":
                 - "KeePass": "de/tutorial/KeePass_1.md"
                 - "KeePass Installieren": "de/tutorial/KeePass_2.md"
                 - "Neue Datenbank anlegen": "de/tutorial/KeePass_3.md"
                 - "Passwort Eintrag hinzufügen": "de/tutorial/KeePass_4.md"
+                - "Passwort ablesen":  "de/tutorial/KeePass_5.md"
             - "Veracrypt":  "de/tutorial/Veracrypt_1.md"
 
 extra_css:

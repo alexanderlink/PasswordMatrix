@@ -10,6 +10,8 @@
 Um Passwort Matrix zu verwenden müssen sie sich einmalig einen persönlichen 'Pfad' ausdenken und merken.
 Alle Passwörter, in ihrere separaten Matrix, können mit diesem gedachten Pfad im Kopf vom Eigentümer reproduziert bzw. abgelesen werden.
 
+Der Pfad sollte eine Länge von mindestens 16 Zeichen haben, um auch längere Passwörter realisieren zu können. Hat ein Passwort weniger Zeichen hören Sie beim Ablesen einfach entsprechend früher auf.
+
 <img class="shadow" src="../../../images/passwordMatrix_empty.PNG" width="50%">
 
 ## Beispiele

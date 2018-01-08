@@ -15,6 +15,8 @@ Auf dieser Seite wird beschrieben, wie sie eine neue KeePass Datenbank Datei fü
 
 <img class="shadow" src="../../../images/keepass03.PNG" width="70%">
 
+Als Beispiel verwenden wir das Master Passwort: `Pas$w0rdMatr1x`
+
 <img class="shadow" src="../../../images/keepass04.PNG" width="70%">
 
 <img class="shadow" src="../../../images/keepass05.PNG" width="70%">
