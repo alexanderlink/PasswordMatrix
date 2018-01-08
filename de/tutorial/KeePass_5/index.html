@@ -32,7 +32,7 @@
     
     
       
-        <title>Passwort Eintrag hinzufügen - ALX Password Matrix</title>
+        <title>Passwort ablesen - ALX Password Matrix</title>
       
     
     
@@ -96,7 +96,7 @@
                 ALX Password Matrix
               </span>
               <span class="md-header-nav__topic">
-                Passwort Eintrag hinzufügen
+                Passwort ablesen
               </span>
             
           
@@ -478,6 +478,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../KeePass_4/" title="Passwort Eintrag hinzufügen" class="md-nav__link">
+      Passwort Eintrag hinzufügen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -488,22 +500,10 @@
       
     
     
-    <a href="./" title="Passwort Eintrag hinzufügen" class="md-nav__link md-nav__link--active">
-      Passwort Eintrag hinzufügen
-    </a>
-    
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../KeePass_5/" title="Passwort ablesen" class="md-nav__link">
+    <a href="./" title="Passwort ablesen" class="md-nav__link md-nav__link--active">
       Passwort ablesen
     </a>
+    
   </li>
 
         
@@ -561,20 +561,28 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/alexanderlink/PasswordMatrix/edit/master/docs/de/tutorial/KeePass_4.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/alexanderlink/PasswordMatrix/edit/master/docs/de/tutorial/KeePass_5.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <p><a class="nav-button pull-right" href="../Veracrypt_1">weiter</a>
-<a class="nav-button pull-left" href="../KeePass_3">zurück</a>
+<a class="nav-button pull-left" href="../KeePass_4">zurück</a>
 <br></p>
-<h1 id="neuen-password-eintrag-hinzufugen">Neuen Password Eintrag hinzufügen<a class="headerlink" href="#neuen-password-eintrag-hinzufugen" title="Permanent link">&para;</a></h1>
-<p>Auf dieser Seite wird beschrieben, wie Sie Passwort Einträge zu einer KeePass Datenbank hinzufügen. In unserem Fall fügen wir nicht das Klartext-Passwort hinzu, sondern eine <a href="../PasswordMatrix_1/">Passwort Matrix</a>, welche das Passwort repräsentiert.</p>
-<p><img class="shadow" src="../../../images/keepass08.PNG" width="70%"></p>
-<p><img class="shadow" src="../../../images/keepass09.PNG" width="70%"></p>
-<p><img class="shadow" src="../../../images/keepass10.PNG" width="70%"></p>
-<p><img class="shadow" src="../../../images/keepass11.PNG" width="70%"></p>
+<h1 id="password-ablesen">Password ablesen<a class="headerlink" href="#password-ablesen" title="Permanent link">&para;</a></h1>
+<p>Öffnen Sie Ihren KeePass Passwort Container (die Datei hat die Endung <code>.kdbx</code>) in KeePass &ndash; ein Doppelklick auf die Datei sollte ausreichen.<br>
+<img alt="ℹ️" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/2139.svg" title=":information_source:" /> Als Beispiel können Sie die Datei <a href="../../../../files/MyPasswords.kdbx">MyPasswords.kdbx</a> herunterladen und öffnen. KeePass muss bereits <a href="../KeePass_2/">installiert</a> sein.</p>
+<p>Geben Sie Ihr Master Passwort ein.<br>
+<img alt="ℹ️" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/2139.svg" title=":information_source:" /> Das Master Passwort von <code>MyPasswords.kdbx</code> ist <code>Pas$w0rdMatr1x</code>.</p>
+<p>Wählen und doppelklicken Sie den Eintrag, den Sie benötigen.<br>
+<img alt="ℹ️" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/2139.svg" title=":information_source:" /> In unserem Beispiel benötigen wir das Passwort für unser GitHub Konto.</p>
+<p><img class="shadow" src="../../../images/keepass11.PNG" width="80%"></p>
+<p>Wenn Sie die Matrix lesbar, wie in unserem Beispiel, im Passwort Manager abgelegt haben, können Sie das Passwort mithilfe Ihres <a href="../PasswordMatrix_3/">persönlichen Pfades</a> direkt ablesen. Alternativ kopieren Sie die einzeilige Matrix Repräsentation und fügen Sie in ALX Password Matrix ein.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Wie Sie das Passwort ablesen ist <a href="../PasswordMatrix_5/">hier beschrieben</a>.</p>
+</div>
+<p><img class="shadow" src="../../../images/keepass09.PNG" width="80%"></p>
 <p><a class="nav-button pull-right" href="../Veracrypt_1">weiter</a>
-<a class="nav-button pull-left" href="../KeePass_3">zurück</a>
+<a class="nav-button pull-left" href="../KeePass_4">zurück</a>
 <br></p>
                 
                   
@@ -594,7 +602,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../KeePass_3/" title="Neue Datenbank anlegen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../KeePass_4/" title="Passwort Eintrag hinzufügen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -603,19 +611,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Neue Datenbank anlegen
+                Passwort Eintrag hinzufügen
               </span>
             </div>
           </a>
         
         
-          <a href="../KeePass_5/" title="Passwort ablesen" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Veracrypt_1/" title="Veracrypt" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Passwort ablesen
+                Veracrypt
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

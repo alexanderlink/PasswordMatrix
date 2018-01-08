@@ -32,7 +32,7 @@
     
     
       
-        <title>Passwort Eintrag hinzufügen - ALX Password Matrix</title>
+        <title>Passwort ablesen - ALX Password Matrix</title>
       
     
     
@@ -96,7 +96,7 @@
                 ALX Password Matrix
               </span>
               <span class="md-header-nav__topic">
-                Passwort Eintrag hinzufügen
+                Passwort ablesen
               </span>
             
           
@@ -337,10 +337,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1" checked>
     
     <label class="md-nav__link" for="nav-2-2-1">
       Password Matrix
@@ -404,11 +406,54 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../PasswordMatrix_5/" title="Passwort ablesen" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Passwort ablesen
+      </label>
+    
+    <a href="./" title="Passwort ablesen" class="md-nav__link md-nav__link--active">
       Passwort ablesen
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#direkt-im-passwort-manager" title="Direkt im Passwort Manager" class="md-nav__link">
+    Direkt im Passwort Manager
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-alx-passwort-matrix" title="In ALX Passwort Matrix" class="md-nav__link">
+    In ALX Passwort Matrix
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -421,12 +466,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-2" type="checkbox" id="nav-2-2-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-2" type="checkbox" id="nav-2-2-2">
     
     <label class="md-nav__link" for="nav-2-2-2">
       KeePass Passwort Manager
@@ -478,20 +521,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="Passwort Eintrag hinzufügen" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../KeePass_4/" title="Passwort Eintrag hinzufügen" class="md-nav__link">
       Passwort Eintrag hinzufügen
     </a>
-    
   </li>
 
         
@@ -551,6 +585,27 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#direkt-im-passwort-manager" title="Direkt im Passwort Manager" class="md-nav__link">
+    Direkt im Passwort Manager
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-alx-passwort-matrix" title="In ALX Passwort Matrix" class="md-nav__link">
+    In ALX Passwort Matrix
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -561,20 +616,47 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/alexanderlink/PasswordMatrix/edit/master/docs/de/tutorial/KeePass_4.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/alexanderlink/PasswordMatrix/edit/master/docs/de/tutorial/PasswordMatrix_5.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <p><a class="nav-button pull-right" href="../Veracrypt_1">weiter</a>
-<a class="nav-button pull-left" href="../KeePass_3">zurück</a>
+                <p><a class="nav-button pull-right" href="../KeePass_1">weiter</a>
+<a class="nav-button pull-left" href="../PasswordMatrix_4">zurück</a>
 <br></p>
-<h1 id="neuen-password-eintrag-hinzufugen">Neuen Password Eintrag hinzufügen<a class="headerlink" href="#neuen-password-eintrag-hinzufugen" title="Permanent link">&para;</a></h1>
-<p>Auf dieser Seite wird beschrieben, wie Sie Passwort Einträge zu einer KeePass Datenbank hinzufügen. In unserem Fall fügen wir nicht das Klartext-Passwort hinzu, sondern eine <a href="../PasswordMatrix_1/">Passwort Matrix</a>, welche das Passwort repräsentiert.</p>
-<p><img class="shadow" src="../../../images/keepass08.PNG" width="70%"></p>
-<p><img class="shadow" src="../../../images/keepass09.PNG" width="70%"></p>
-<p><img class="shadow" src="../../../images/keepass10.PNG" width="70%"></p>
-<p><img class="shadow" src="../../../images/keepass11.PNG" width="70%"></p>
-<p><a class="nav-button pull-right" href="../Veracrypt_1">weiter</a>
-<a class="nav-button pull-left" href="../KeePass_3">zurück</a>
+<h1 id="4-passwort-ablesen">4. Passwort ablesen<a class="headerlink" href="#4-passwort-ablesen" title="Permanent link">&para;</a></h1>
+<p>Um ein Passwort abzulesen, öffnen Sie die Matrix in 'ALX Password Matrix' oder falls Sie die Matrix direkt lesbar im Passwort Manager gespeichert haben, können Sie das Passwort auch ohne Umweg dort ablesen.</p>
+<h2 id="direkt-im-passwort-manager">Direkt im Passwort Manager<a class="headerlink" href="#direkt-im-passwort-manager" title="Permanent link">&para;</a></h2>
+<p>Wurde die Matrix in Matrix-Form direkt im Passwort Manager gespeichert, lässt sich das Passwort mithilfe des <a href="../PasswordMatrix_3/">persönlichen Pfades</a> direkt ablesen, ohne den Umweg über 'ALX Password Matrix'.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Auf den <a href="../KeePass_1/">folgenden Seiten</a> wird genauer auf die Verwendung von Passwort Managern eingegangen.</p>
+</div>
+<p>Die Matrix aus den Beispielen vorher würde im Passwort Manager wie folgt aussehen:</p>
+<div class="codehilite"><pre><span></span>e 5 R g k J t
+L J q 3 : @ o
+x &amp; Q @ = t V
+3 i ] R a V Y
+T [ A { u s C
++ Y F 3 % M p
+H \ k Y v - g
+
+(12 Zeichen)
+</pre></div>
+
+
+<p>Anhand des <a href="../PasswordMatrix_3/">persönlichen Pfades</a> lässt sich das Passwort im Kopf ablesen.</p>
+<p>Mit folgendem (Beispiel-)Pfad wäre das Passwort mit 12 Zeichen: <code>R=@Q]A{u3kY</code></p>
+<p><img class="shadow-nomargin" src="../../../images/passwordMatrix_pathExample2.PNG" width="49%"></p>
+<h2 id="in-alx-passwort-matrix">In ALX Passwort Matrix<a class="headerlink" href="#in-alx-passwort-matrix" title="Permanent link">&para;</a></h2>
+<p>Offnen Sie <a target="_blank" class="button" href="../../../PasswordMatrix.htm"><b>Password Matrix</b></a></p>
+<p>Kopieren Sie den einzeiligen Matrix Text aus Ihrem Passwort Manager und fügen Sie ihn in das Textfeld oben in 'ALX Password Matrix' ein. Das 'Schachbrett' wird automatisch mit den einzelnen Zeichen befüllt.</p>
+<p>Der einzeilige Matrix Text aus dem Beispiel der vorherigen Seiten ist <code>e5RgkJtLJq3:@ox&amp;Q@=tV3i]RaVYT[A{usC+YF3%MpH\kYv-g</code> und führt zu folgendem Ergebnis:</p>
+<p><img class="shadow" src="../../../images/passwordMatrix03.PNG" width="50%"></p>
+<p>Anhand des <a href="../PasswordMatrix_3/">persönlichen Pfades</a> lässt sich das Passwort im Kopf ablesen.</p>
+<p>Mit folgendem (Beispiel-)Pfad wäre das Passwort mit 12 Zeichen: <code>R=@Q]A{u3kY</code></p>
+<p><img class="shadow-nomargin" src="../../../images/passwordMatrix_pathExample2.PNG" width="49%">
+<img class="shadow-nomargin" src="../../../images/passwordMatrix_filled.PNG" width="49%"></p>
+<p><a class="nav-button pull-right" href="../KeePass_1">weiter</a>
+<a class="nav-button pull-left" href="../PasswordMatrix_4">zurück</a>
 <br></p>
                 
                   
@@ -594,7 +676,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../KeePass_3/" title="Neue Datenbank anlegen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../PasswordMatrix_4/" title="Matrix generieren" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -603,19 +685,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Neue Datenbank anlegen
+                Matrix generieren
               </span>
             </div>
           </a>
         
         
-          <a href="../KeePass_5/" title="Passwort ablesen" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../KeePass_1/" title="KeePass" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Passwort ablesen
+                KeePass
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
