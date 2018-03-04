@@ -1,0 +1,53 @@
+site_name: ALX Password Matrix
+
+repo_url: https://github.com/alexanderlink/PasswordMatrix
+
+pages:
+    - "English":
+        - "Password Matrix": "index.md"
+#        - "Tutorials":
+#            - "Password Matrix":  "en/tutorial/PasswordMatrix.md"
+#            - "Basic: KeePass":  "en/tutorial/KeePass.md"
+#            - "Advanced: Veracrypt & KeePass":  "en/tutorial/Veracrypt.md"
+    - "Deutsch":
+        - "Password Matrix": "de/index.md"
+        - "Anleitung":
+            - "Password Matrix":
+                - "Konzept":  "de/tutorial/PasswordMatrix_1.md"
+                - "Programm starten":  "de/tutorial/PasswordMatrix_2.md"
+                - "Persönlicher Pfad":  "de/tutorial/PasswordMatrix_3.md"
+                - "Matrix generieren":  "de/tutorial/PasswordMatrix_4.md"
+                - "Passwort ablesen":  "de/tutorial/PasswordMatrix_5.md"
+            - "KeePass Passwort Manager":
+                - "KeePass": "de/tutorial/KeePass_1.md"
+                - "KeePass Installieren": "de/tutorial/KeePass_2.md"
+                - "Neue Datenbank anlegen": "de/tutorial/KeePass_3.md"
+                - "Passwort Eintrag hinzufügen": "de/tutorial/KeePass_4.md"
+                - "Passwort ablesen":  "de/tutorial/KeePass_5.md"
+            - "Veracrypt":  "de/tutorial/Veracrypt_1.md"
+
+extra_css:
+    - extra/css/extra.css
+extra_javascript:
+    - extra/js/extra.js
+
+markdown_extensions:
+    - markdown.extensions.codehilite(guess_lang=false)
+    - pymdownx.betterem
+    - pymdownx.tilde
+    - pymdownx.details
+    - pymdownx.tasklist
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+        emoji_index: !!python/name:pymdownx.emoji.emojione
+    - toc:
+        permalink: True
+    - admonition
+
+theme:
+    name: 'material'
+    palette:
+        primary: 'red'
+        accent: 'light green'
+    feature:
+        tabs: true

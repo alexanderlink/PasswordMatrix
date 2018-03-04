@@ -1,0 +1,36 @@
+a.button {
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 2.75px;
+    border-bottom-right-radius: 2.75px;
+    border-top-left-radius: 2.75px;
+    border-top-right-radius: 2.75px;
+    padding-bottom: 4.13333px;
+    padding-left: 8.25px;
+    padding-right: 8.25px;
+    padding-top: 4.13333px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+}
+
+img.shadow {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 4px 0px, rgba(0, 0, 0, 0.12) 0px 2px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px -2px;
+    margin-left: 50px;
+}
+
+img.shadow-nomargin {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 4px 0px, rgba(0, 0, 0, 0.12) 0px 2px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px -2px;
+}
+
+.pull-right {
+    float: right !important;
+    margin-left: 20px;
+}
+
+.pull-left {
+    float: left !important;
+    margin-right: 20px;
+}
+
+a.nav-button {
+    margin-right: 20px;
+}
