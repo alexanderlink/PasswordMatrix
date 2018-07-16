@@ -9,5 +9,5 @@ It shows a 7x7 matrix containing random characters. Your password is hidden in t
 
 The idea is to store such matrixes in a password manager rather than the plaintext passwords. This way an attacker cracking the password depot does not have immediate access to all stored passwords.
 
-<img src="docs\tutorial\images\passwordMatrix_anim.gif" width="400px"><br>
+<img src="https://github.com/alexanderlink/PasswordMatrix/raw/master/docs/images/passwordMatrix_anim.gif" width="400px"><br>
 (yellow path only mind of user)
