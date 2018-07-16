@@ -1,0 +1,6 @@
+image: alxsap/mkdocs
+
+build-master:
+  stage: build
+  script:
+    - mkdocs build
