@@ -5,6 +5,8 @@ image: alxsap/mkdocs
 build-master:
   stage: build
   script:
+    - "pwd"
+    - "whoami"
     - "echo $GH_SSH_KEY > /root/.ssh/id_rsa"
     - "chmod 400 /root/.ssh/id_rsa"
     - "mkdocs build"
