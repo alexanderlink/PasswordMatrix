@@ -87,7 +87,7 @@ Der [gelbe Pfad](tutorial/PasswordMatrix_3.md) existiert nur im Kopf des Eigent�
 
 <img class="shadow" src="../images/passwordMatrix_anim.gif" width="50%">
 
-# Nützliche Links
+## Nützliche Links
 
 - [Identity Leak Checker](https://sec.hpi.de/ilc/search) des Hasso-Plattner-Instituts
 - [Have I Been Pwned](https://haveibeenpwned.com/)
