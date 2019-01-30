@@ -86,3 +86,8 @@ Es gibt viele Möglichkeiten Passwörter zu verwalten, mit allen Vor- und Nachte
 Der [gelbe Pfad](tutorial/PasswordMatrix_3.md) existiert nur im Kopf des Eigentümers. Sollte die Matrix in falsche Hände fallen, kann der Angreifer das Passwort ohne den Pfad nicht rekonstruieren.
 
 <img class="shadow" src="../images/passwordMatrix_anim.gif" width="50%">
+
+# Nützliche Links
+
+- [Identity Leak Checker](https://sec.hpi.de/ilc/search) des Hasso-Plattner-Instituts
+- [Have I Been Pwned](https://haveibeenpwned.com/)
